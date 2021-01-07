@@ -1,0 +1,29 @@
+@font-face{
+  font-family: "sf";
+  src: url(../assets/fonts/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+body {
+  margin: 0;
+  font-family: sf;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(../assets//images/Rectangle.svg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.spacer{
+  height: 20px;
+  display: block;
+}
+
+.logo{
+  height:100px;
+  width:100px;
+}

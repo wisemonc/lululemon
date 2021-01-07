@@ -1,0 +1,30 @@
+
+.details-div{
+    background: #F8F8F8;
+    width: 25rem;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6rem;
+  }
+  .text-red{
+    color:  #C22F3A;
+  }
+  .bottom-text{
+    margin-left: 2.54rem;
+    font-size: 13px;
+  }
+  .text-bottom{
+    bottom: 10px;
+    position: fixed;
+    right: 0px;
+    left: 32%;
+  }
+  
+  @media only screen and (max-device-width:500px){
+    .details-div{
+      width: 300px;
+      height: 400px;
+     margin-right: 2rem;
+    }
+  }

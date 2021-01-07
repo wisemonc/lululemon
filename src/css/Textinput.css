@@ -1,0 +1,21 @@
+.text-input input{
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 1px;
+    border: none;
+    
+}
+.heading h3{
+font-family: sf;
+color: #000000;
+font-style: normal;
+font-weight: 600;
+text-align: left;
+margin-left: 2.5rem;
+font-size: 13px;
+line-height: 11px;
+}
+.grey-text{
+    color:grey;
+    font-size: 13px;
+}
