@@ -1,13 +1,94 @@
 .contain-detail{
     margin: 0;
-  position: absolute;
-  top: 50%;
- 
+    position: absolute;
+    top: 50%;
+    padding:4rem;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .launch-main{
   display: flex;
   justify-content: flex-end;
- 
+}
+
+.details-div{
+  background: #F8F8F8;
+  width: 20rem;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6rem;
+}
+.text-red{
+  color:  #C22F3A;
+  font-size: 9px;
+  font-weight: 500;
+}
+
+.bottom-text p{
+  font-size: 9px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.bottom-text{
+  padding: 0 30px;
+}
+
+.launch-para{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.text-input{
+  padding: 0 30px;
+}
+
+.heading-h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 11px;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.contain-btn{
+  padding: 0 30px;
+}
+
+.meeting-btn{
+  background: #C22F3A;
+  border-radius: 1px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  width: 100%;
+  border: none;
+  padding: 7px;
+}
+
+.text-input input{
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 1px;
+  border: none;
+}
+
+
+@media only screen and (max-device-width:500px){
+  .details-div{
+   margin-right: 0.5rem;
+  }
+}
+
+@media only screen and (max-device-width:400px){
+  .details-div{
+   margin-right: 0;
+  }
+  .contain-detail{
+    padding: 1rem;
+  }
 }
